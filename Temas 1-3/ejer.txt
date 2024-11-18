@@ -1,0 +1,7 @@
+realice un script que verifique cada 3 minutos si existe el archivo /var/log/
+any-service/error.log. Si el archivo existe y dentro de el hay al menos una
+linea con el texto "FATAL ERROR". debemos:comprimir y empaquetar el contenido
+del directorio /var/log/usr-service. guardarlo en un directorio que es pasado
+como parametro al script y ademas causar la terminacion del script apropiada-
+mente. Cuando el script termina debemos informar por la salida estandard la
+cantidad de lineas del archivo que contenian el texto "FATAL ERROR"

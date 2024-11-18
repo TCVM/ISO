@@ -1,0 +1,177 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.8  0.6 168152 12324 ?        Ss   10:38   0:10 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    10:38   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   10:38   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   10:38   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   10:38   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   10:38   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/0:0-events]
+root           8  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/0:0H-events_highpri]
+root           9  0.1  0.0      0     0 ?        I    10:38   0:01 [kworker/u8:0-events_unbound]
+root          10  0.0  0.0      0     0 ?        I<   10:38   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    10:38   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    10:38   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    10:38   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    10:38   0:00 [ksoftirqd/0]
+root          15  0.2  0.0      0     0 ?        I    10:38   0:02 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    10:38   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    10:38   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    10:38   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    10:38   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    10:38   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    10:38   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    10:38   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    10:38   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    10:38   0:00 [idle_inject/2]
+root          28  0.0  0.0      0     0 ?        S    10:38   0:00 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    10:38   0:00 [ksoftirqd/2]
+root          31  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/2:0H-events_highpri]
+root          32  0.0  0.0      0     0 ?        S    10:38   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    10:38   0:00 [idle_inject/3]
+root          34  0.0  0.0      0     0 ?        S    10:38   0:00 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    10:38   0:01 [ksoftirqd/3]
+root          36  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/3:0-cgroup_destroy]
+root          37  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    10:38   0:00 [kdevtmpfs]
+root          39  0.0  0.0      0     0 ?        I<   10:38   0:00 [inet_frag_wq]
+root          40  0.0  0.0      0     0 ?        S    10:38   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S    10:38   0:00 [khungtaskd]
+root          43  0.0  0.0      0     0 ?        S    10:38   0:00 [oom_reaper]
+root          45  0.0  0.0      0     0 ?        I<   10:38   0:00 [writeback]
+root          46  0.0  0.0      0     0 ?        S    10:38   0:00 [kcompactd0]
+root          47  0.0  0.0      0     0 ?        SN   10:38   0:00 [ksmd]
+root          48  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/2:1-mm_percpu_wq]
+root          49  0.0  0.0      0     0 ?        SN   10:38   0:00 [khugepaged]
+root          50  0.0  0.0      0     0 ?        I<   10:38   0:00 [kintegrityd]
+root          51  0.0  0.0      0     0 ?        I<   10:38   0:00 [kblockd]
+root          52  0.0  0.0      0     0 ?        I<   10:38   0:00 [blkcg_punt_bio]
+root          53  0.0  0.0      0     0 ?        I<   10:38   0:00 [tpm_dev_wq]
+root          54  0.0  0.0      0     0 ?        I<   10:38   0:00 [ata_sff]
+root          55  0.0  0.0      0     0 ?        I<   10:38   0:00 [md]
+root          56  0.0  0.0      0     0 ?        I<   10:38   0:00 [edac-poller]
+root          57  0.1  0.0      0     0 ?        I    10:38   0:02 [kworker/3:1-events]
+root          58  0.0  0.0      0     0 ?        I<   10:38   0:00 [devfreq_wq]
+root          59  0.0  0.0      0     0 ?        S    10:38   0:00 [watchdogd]
+root          60  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/3:1H-kblockd]
+root          61  0.0  0.0      0     0 ?        S    10:38   0:00 [kswapd0]
+root          62  0.0  0.0      0     0 ?        S    10:38   0:00 [ecryptfs-kthread]
+root          63  0.0  0.0      0     0 ?        I<   10:38   0:00 [kthrotld]
+root          64  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/1:1-events]
+root          65  0.0  0.0      0     0 ?        I<   10:38   0:00 [acpi_thermal_pm]
+root          66  0.0  0.0      0     0 ?        S    10:38   0:00 [xenbus_probe]
+root          71  0.0  0.0      0     0 ?        I<   10:38   0:00 [mld]
+root          72  0.0  0.0      0     0 ?        I<   10:38   0:00 [ipv6_addrconf]
+root          73  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/1:1H-kblockd]
+root          81  0.0  0.0      0     0 ?        I<   10:38   0:00 [kstrp]
+root          83  0.0  0.0      0     0 ?        I<   10:38   0:00 [zswap-shrink]
+root          84  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/u9:0]
+root          88  0.0  0.0      0     0 ?        I<   10:38   0:00 [charger_manager]
+root         114  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/0:1H-acpi_thermal_pm]
+root         130  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/2:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        S    10:38   0:00 [scsi_eh_0]
+root         155  0.0  0.0      0     0 ?        I<   10:38   0:00 [scsi_tmf_0]
+root         171  0.0  0.0      0     0 ?        I<   10:38   0:00 [uas]
+root         172  0.0  0.0      0     0 ?        S    10:38   0:00 [scsi_eh_1]
+root         173  0.0  0.0      0     0 ?        I<   10:38   0:00 [scsi_tmf_1]
+root         178  0.0  0.0      0     0 ?        S    10:38   0:00 [scsi_eh_2]
+root         180  0.0  0.0      0     0 ?        I<   10:38   0:00 [scsi_tmf_2]
+root         181  0.0  0.0      0     0 ?        S    10:38   0:00 [scsi_eh_3]
+root         182  0.0  0.0      0     0 ?        I<   10:38   0:00 [scsi_tmf_3]
+root         187  0.0  0.0      0     0 ?        S    10:38   0:00 [scsi_eh_4]
+root         188  0.0  0.0      0     0 ?        I<   10:38   0:00 [scsi_tmf_4]
+root         189  0.0  0.0      0     0 ?        S    10:38   0:00 [usb-storage]
+root         212  0.0  0.0      0     0 ?        S    10:38   0:00 [jbd2/sda3-8]
+root         213  0.0  0.0      0     0 ?        I<   10:38   0:00 [ext4-rsv-conver]
+root         249  0.2  0.8  49288 15916 ?        S<s  10:38   0:02 /lib/systemd/systemd-journald
+root         298  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/u8:6-events_unbound]
+root         300  0.2  0.3  28220  7552 ?        Ss   10:38   0:02 /lib/systemd/systemd-udevd
+root         445  0.0  0.0      0     0 ?        I<   10:39   0:00 [cfg80211]
+root         449  0.0  0.0      0     0 ?        S    10:39   0:00 [card0-crtc0]
+root         450  0.0  0.0      0     0 ?        S    10:39   0:00 [card0-crtc1]
+root         455  0.0  0.0      0     0 ?        I    10:39   0:00 [kworker/2:3-cgroup_destroy]
+systemd+     623  0.0  0.6  20100 12160 ?        Ss   10:39   0:00 /lib/systemd/systemd-resolved
+systemd+     625  0.0  0.3  89684  7168 ?        Ssl  10:39   0:00 /lib/systemd/systemd-timesyncd
+root         692  0.0  0.3 323504  7404 ?        Ssl  10:39   0:01 /usr/libexec/accounts-daemon
+avahi        695  0.5  0.1   8544  3968 ?        Ss   10:39   0:05 avahi-daemon: running [thecague-net.local]
+root         697  0.0  0.1  19776  2944 ?        Ss   10:39   0:00 /usr/sbin/cron -f -P
+message+     698  0.5  0.3  10852  6016 ?        Ss   10:39   0:06 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         704  0.0  0.1  82756  3712 ?        Ssl  10:39   0:00 /usr/sbin/irqbalance --foreground
+root         710  0.1  0.5 326632 10692 ?        Ssl  10:39   0:01 /usr/libexec/polkitd --no-debug
+root         724  0.7  1.5 1393212 30784 ?       Ssl  10:39   0:08 /usr/lib/snapd/snapd
+root         725  0.1  0.4  49524  8240 ?        Ss   10:39   0:01 /lib/systemd/systemd-logind
+root         727  0.2  0.6 466428 13532 ?        Ssl  10:39   0:03 /usr/libexec/udisks2/udisksd
+avahi        734  0.0  0.0   8220  1292 ?        S    10:39   0:00 avahi-daemon: chroot helper
+syslog       785  0.0  0.2 222300  5888 ?        Ssl  10:39   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         791  0.4  0.9 344984 18352 ?        Ssl  10:39   0:05 /usr/sbin/NetworkManager --no-daemon
+root         792  0.1  0.5  17224 10880 ?        Ss   10:39   0:01 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         801  0.0  0.5 317156 11592 ?        Ssl  10:39   0:00 /usr/sbin/ModemManager
+root         850  0.0  0.5  48332 11904 ?        Ss   10:39   0:00 /usr/sbin/cupsd -l
+root         851  0.2  0.0   2888  1536 ?        Ss   10:39   0:03 /bin/sh /snap/cups/980/scripts/run-cups-browsed
+root         852  0.2  0.0   2888  1280 ?        Ss   10:39   0:03 /bin/sh /snap/cups/980/scripts/run-cupsd
+root         854  0.0  1.2 129300 24576 ?        Ssl  10:39   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         861  0.0  0.3 379948  7092 ?        SLsl 10:39   0:00 /usr/sbin/lightdm
+root         888  0.0  0.0  19048  1664 tty1     Ss+  10:39   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+lp           916  0.0  0.3  16264  6144 ?        S    10:39   0:00 /usr/lib/cups/notifier/dbus dbus://
+cups-br+    1039  0.0  0.8 260424 17408 ?        Ssl  10:39   0:00 /usr/sbin/cups-browsed
+kernoops    1044  0.0  0.1  12524  2188 ?        Ss   10:39   0:00 /usr/sbin/kerneloops --test
+kernoops    1046  0.0  0.1  12524  2208 ?        Ss   10:39   0:00 /usr/sbin/kerneloops
+root        1149  0.2  0.6  66616 12160 ?        S    10:39   0:02 cupsd -f -s /var/snap/cups/common/etc/cups/cups-files.conf -c /var/snap/cups/common/etc/cups/cupsd.conf
+root        1164  0.0  0.0   2888   896 ?        S    10:39   0:00 /bin/sh /snap/cups/980/scripts/run-cups-browsed
+root        1165  0.0  0.0   3208  1664 ?        S    10:39   0:00 sleep 3600
+rtkit       1195  0.0  0.1  22776  3072 ?        SNsl 10:39   0:00 /usr/libexec/rtkit-daemon
+thecague    1298  0.2  0.5  19320 11008 ?        Ss   10:39   0:02 /lib/systemd/systemd --user
+thecague    1299  0.0  0.3 103908  6052 ?        S    10:39   0:00 (sd-pam)
+thecague    1305  0.0  0.7  63160 14112 ?        S<sl 10:39   0:00 /usr/bin/pipewire
+thecague    1310  0.2  1.8 498832 37536 ?        S<sl 10:39   0:02 /usr/bin/wireplumber
+thecague    1314  0.0  0.4  39712  9088 ?        S<sl 10:39   0:00 /usr/bin/pipewire-pulse
+thecague    1316  0.0  0.5 326356 10240 ?        SLsl 10:39   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+thecague    1317  0.4  0.2   9956  5632 ?        Ss   10:39   0:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+thecague    1348  0.0  0.3 319728  6016 ?        Ssl  10:39   0:00 /usr/libexec/xdg-permission-store
+thecague    1559  0.0  0.3 382668  7808 ?        Ssl  10:40   0:00 /usr/libexec/at-spi-bus-launcher
+thecague    1566  0.0  0.2   9356  4480 ?        S    10:40   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+thecague    1587  0.0  0.3 324100  7808 ?        Ssl  10:40   0:00 /usr/libexec/gvfsd
+thecague    1593  0.0  0.3 454020  6400 ?        Sl   10:40   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+root        1628  0.2  0.3 320492  6784 ?        Ssl  10:40   0:02 /usr/libexec/upowerd
+thecague    1751  0.0  0.5 327872 11776 ?        Sl   10:40   0:00 /usr/libexec/ayatana-indicator-application/ayatana-indicator-application-service
+colord      1758  0.1  0.6 329204 13056 ?        Ssl  10:40   0:01 /usr/libexec/colord
+thecague    1781  0.1  1.7  72108 35052 ?        S    10:40   0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+root        1794  3.0  4.5 863320 90528 tty7     Ssl+ 10:40   0:32 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+thecague    1806  0.2  0.4 399400  9728 ?        Ssl  10:40   0:03 /usr/libexec/gvfs-udisks2-volume-monitor
+thecague    1814  0.0  0.3 321104  6912 ?        Ssl  10:40   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+thecague    1819  0.0  0.3 398844  7808 ?        Ssl  10:40   0:00 /usr/libexec/gvfs-afc-volume-monitor
+thecague    1831  0.0  0.3 320024  6400 ?        Ssl  10:40   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+thecague    1840  0.0  0.3 320056  6400 ?        Ssl  10:40   0:00 /usr/libexec/gvfs-goa-volume-monitor
+root        1960  0.0  0.4 234160  8112 ?        Sl   10:40   0:00 lightdm --session-child 12 20
+thecague    1977  0.2  1.1 350236 23420 ?        Ssl  10:42   0:02 xfce4-session
+thecague    2200  0.0  0.3 235828  7936 ?        Sl   10:42   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+thecague    2202  0.2  1.3 313184 26068 ?        Sl   10:42   0:02 /usr/bin/xfce4-screensaver
+thecague    2213  1.0  4.9 1293168 97548 ?       Sl   10:42   0:10 xfwm4 --replace
+thecague    2231  0.2  1.4 315532 28044 ?        Sl   10:42   0:02 xfsettingsd
+thecague    2235  0.2  1.5 574300 30248 ?        Sl   10:42   0:02 xfce4-panel
+thecague    2240  0.0  1.1 423940 23136 ?        Sl   10:42   0:00 Thunar --daemon
+thecague    2246  0.2  2.1 492172 42656 ?        Sl   10:42   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 18874375 whiskermenu Whisker Menu Show a menu to easily access installed applications
+thecague    2247  0.4  2.1 477488 42648 ?        Sl   10:42   0:04 xfdesktop
+thecague    2251  0.3  2.0 556984 41568 ?        Sl   10:42   0:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 5 18874376 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+thecague    2252  0.1  2.0 482876 40496 ?        Sl   10:42   0:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 6 18874377 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+thecague    2253  0.0  1.1 349264 23304 ?        Sl   10:42   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libindicator-plugin.so 7 18874378 indicator Indicator Plugin Provides a panel area for Unity indicators. Indicators allow applications and system services to display their status and interact with the user.
+thecague    2254  0.3  2.0 475848 41628 ?        Sl   10:42   0:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 8 18874379 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+thecague    2264  1.8  2.1 545048 42896 ?        Sl   10:42   0:17 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 9 18874380 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+thecague    2289  0.0  0.0  12740  1852 ?        Ssl  10:42   0:00 xcape -e Super_L Alt_L Pause
+thecague    2293  0.1  1.2 497136 23884 ?        Sl   10:42   0:01 update-notifier
+thecague    2301  0.0  0.4 398316  8448 ?        Sl   10:42   0:00 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+thecague    2313  0.1  1.1 275308 22976 ?        Sl   10:42   0:01 xfce4-power-manager
+thecague    2323  0.0  0.8 344784 17792 ?        Sl   10:42   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+thecague    2326  0.3  1.6 508836 32160 ?        Sl   10:42   0:03 nm-applet
+thecague    2328  0.4  2.4 454932 49004 ?        Sl   10:42   0:04 /usr/bin/python3 /usr/bin/blueman-applet
+thecague    2335  0.0  0.4 921612  8064 ?        Sl   10:42   0:00 xiccd
+thecague    2337  0.0  0.8 270068 16384 ?        Sl   10:42   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+thecague    2422  0.0  0.4  49072  8320 ?        Ss   10:42   0:00 /usr/lib/bluetooth/obexd
+thecague    2431  2.2  2.0 546812 39984 ?        Sl   10:42   0:21 /usr/bin/xfce4-terminal
+thecague    2451  0.1  0.2  21372  4992 pts/0    Ss   10:42   0:01 bash
+thecague    2489  0.0  0.0  18784  1920 pts/0    T    10:44   0:00 cat
+root        2498  0.0  0.0      0     0 ?        I    10:45   0:00 [kworker/0:1-mm_percpu_wq]
+root        2616  0.0  0.0      0     0 ?        I    10:52   0:00 [kworker/u8:1-events_power_efficient]
+root        2623  0.0  0.0      0     0 ?        I    10:52   0:00 [kworker/1:2-cgroup_destroy]
+root        2650  0.0  0.0      0     0 ?        I    10:56   0:00 [kworker/0:2]
+thecague    2672  220  0.2  24364  4736 pts/0    R+   10:58   0:00 ps aux
